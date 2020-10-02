@@ -1,0 +1,174 @@
+.download-popup[data-v-df26b6be] {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+}
+.download-popup img[data-v-df26b6be] {
+  width: 100%;
+}
+.download-popup .content[data-v-df26b6be] {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 16rem;
+  min-height: 2rem;
+  margin-left: -8rem;
+  margin-top: -6rem;
+  border-radius: 8px;
+  z-index: 1100;
+}
+.download-popup .content .main-area[data-v-df26b6be] {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 0.8rem;
+  background-color: #edf6fa;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  padding: 1rem 0.4rem 1rem 0.8rem;
+  /*box-sizing: border-box;*/
+}
+.download-popup .content .main-area .close[data-v-df26b6be] {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 1.6rem;
+  width: 1.6rem;
+  z-index: 620;
+}
+.download-popup .content .main-area .close span[data-v-df26b6be] {
+  display: block;
+  width: 0.8rem;
+  height: 0.8rem;
+  background: url("/static/images/icon_close_22f72f5.png") 0 0 no-repeat;
+  background-size: contain;
+  margin: 0.4rem;
+}
+.download-popup .content .main-area .info[data-v-df26b6be] {
+  display: inline-block;
+  vertical-align: top;
+  width: 50%;
+}
+.download-popup .content .main-area .info .bg_cloud[data-v-df26b6be] {
+  height: 6.4rem;
+}
+.download-popup .content .main-area .cont[data-v-df26b6be] {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  color: #009aef;
+  text-align: right;
+  padding-top: 2.4rem;
+}
+.download-popup .content .button-area[data-v-df26b6be] {
+  text-align: center;
+  padding: 1rem 0.4rem 1rem 0.8rem;
+  background-color: #fff;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+.download-popup .content .button-area .btn[data-v-df26b6be] {
+  display: inline-block;
+  margin: 0.2rem;
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+  padding-left: 0.7rem;
+  padding-right: 0.7rem;
+  width: 11rem;
+  background-color: #fad962;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 0.8rem;
+  text-align: center;
+  text-decoration: none;
+  color: #333;
+  overflow: hidden;
+  line-height: 2;
+  border-radius: 1.4rem;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+.hidden[data-v-df26b6be] {
+  display: none;
+}
+.show[data-v-df26b6be] {
+  display: block;
+}
+      .HomeFooter {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0.5rem 0rem;
+  width: 100%;
+  height: 4.00rem;
+  border-top: 1px solid #E6E6E6;
+  background: rgba(255, 255, 255, 0.95);
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.HomeFooter .closeBtnBox {
+  margin-left: 0.3rem;
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.HomeFooter .closeBtnBox span {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: url(/static/images/icon_close_22f72f5.png) no-repeat 0 0;
+  background-size: cover;
+}
+.HomeFooter .content {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.HomeFooter .content .logo {
+  margin-right: 0.75rem;
+  width: 2rem;
+  height: 2rem;
+  background: url(/static/images/app.jpg) no-repeat center center;
+  background-size: cover;
+}
+.HomeFooter .content .text {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+.HomeFooter .content .text h3 {
+  font-size: 1.00rem;
+  font-weight: 700;
+  line-height: 1.5;
+  padding-bottom: 0.2rem;
+}
+.HomeFooter .content .text p {
+  font-size: 0.47rem;
+  line-height: 1.2;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.HomeFooter .HomeFooterBtnBox button {
+  font-size: 0.75rem;
+  line-height: 1;
+  margin: 0.75rem;
+  font-weight: 700;
+  width: 5rem;
+  display: inline-block;
+  border-radius: 1rem;
+  text-align: center;
+  background: #FDE23D;
+  padding: 0.4rem 0rem;
+}
