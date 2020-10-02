@@ -6,7 +6,7 @@ a:hover{color:#f66}
 .clearfix:after,.clearfix:before{display:table;content:""}
 .clearfix:after{clear:both;overflow:hidden}
 header{position:relative;width:100%;display:none;margin:0 auto;}
-header a.close{position:absolute;right:10px;bottom:10px;display:block;margin:0 auto;width:26px;height:26px;border-radius:50%;background:#EFEFF4 url(images/del.png) no-repeat center center;background-size:13px;transition: All 0.4s ease-in-out;-webkit-transition: All 0.4s ease-in-out;-moz-transition: All 0.4s ease-in-out;-o-transition: All 0.4s ease-in-out;border:2px solid #fff;z-index:5;}
+header a.close{position:absolute;right:10px;bottom:10px;display:block;margin:0 auto;width:26px;height:26px;border-radius:50%;background:#EFEFF4 url(img/del.png) no-repeat center center;background-size:13px;transition: All 0.4s ease-in-out;-webkit-transition: All 0.4s ease-in-out;-moz-transition: All 0.4s ease-in-out;-o-transition: All 0.4s ease-in-out;border:2px solid #fff;z-index:5;}
 header a.close:hover{transform: rotate(360deg);-webkit-transform: rotate(360deg);-moz-transform: rotate(360deg);-o-transform: rotate(360deg);-ms-transform: rotate(360deg);}
 
 .tips{margin:0 auto;width:100%;height:5pc}
@@ -24,18 +24,18 @@ header a.close:hover{transform: rotate(360deg);-webkit-transform: rotate(360deg)
 .txts .box .fl img{width:100%;height:100%;display:block;border-radius:50%}
 .txts .box .fr{width:auto;float:left;line-height:30px;margin:0px 10px;font-size:.8em;position:absolute;top:0;left:60px;padding:0px}
 .txts .box .fr i{width:1pc;height:1pc;padding:2px;display:inline-block;margin:0 5px;border-radius:6px;position:relative;top:5px;}
-.txts .box .fr i.ios{background:#fff url(images/icon_ios.png) center center no-repeat;background-size:14px 14px;}
-.txts .box .fr i.and{background:#fff url(images/icon_and.png) center center no-repeat;background-size:14px 14px;}
-.txts .box .fr i.qq{background:#fff url(images/icon_qq.png) center center no-repeat;background-size:14px 14px;}
-.txts .box .fr i.wx{background:#fff url(images/icon_wx.png) center center no-repeat;background-size:14px 14px;}
-.txts .box .fr i.more{background:#fff url(../images/icon_more.png) center center no-repeat;background-size:14px 14px;}
-.txts .arrow{-webkit-animation: bounce-down 1.2s linear infinite;animation: bounce-down 1.5s linear infinite;width:90pt;height:90pt;background:url(images/toparrow.png) right top no-repeat;display:block;background-size:72px 5pc;position:absolute;top:-20px;right:0}
+.txts .box .fr i.ios{background:#fff url(img/icon_ios.png) center center no-repeat;background-size:14px 14px;}
+.txts .box .fr i.and{background:#fff url(img/icon_and.png) center center no-repeat;background-size:14px 14px;}
+.txts .box .fr i.qq{background:#fff url(img/icon_qq.png) center center no-repeat;background-size:14px 14px;}
+.txts .box .fr i.wx{background:#fff url(img/icon_wx.png) center center no-repeat;background-size:14px 14px;}
+.txts .box .fr i.more{background:#fff url(img/icon_more.png) center center no-repeat;background-size:14px 14px;}
+.txts .arrow{-webkit-animation: bounce-down 1.2s linear infinite;animation: bounce-down 1.5s linear infinite;width:90pt;height:90pt;background:url(img/toparrow.png) right top no-repeat;display:block;background-size:72px 5pc;position:absolute;top:-20px;right:0}
 @keyframes bounce-down{25%{transform:translateY(-5px)}50%,to{transform:translateY(0)}75%{transform:translateY(5px)}}
 .notfoud{display:block;overflow:hidden;margin:20px 5% 50px;padding:0;width:90%;border-right:1px solid #eee;border-left:1px solid #eee;border-radius:4px;background:#fff}
 .notfoud.radius{border:0px;border-radius:6px;box-shadow:0 5px 15px 0 rgba(0,0,0,.1);}
 .notfoud h1{width:100%;margin:0px auto 10px;display:block;text-align:center;background:#ddd;color:#333;font-size:1em;line-height:40px;height:40px;top:0px;right:0px;position:relative;}
-.notfoud .Bwave,.notfoud .Twave{display:block;overflow:hidden;width:100%;height:20px;background:#fff url(images/Twave.png) repeat-x center top}
-.notfoud .Bwave{background:#fff url(images/Bwave.png) repeat-x center bottom}
+.notfoud .Bwave,.notfoud .Twave{display:block;overflow:hidden;width:100%;height:20px;background:#fff url(img/Twave.png) repeat-x center top}
+.notfoud .Bwave{background:#fff url(img/Bwave.png) repeat-x center bottom}
 .notfoud .ewm{display:block;overflow:hidden;margin:0 auto 10px;padding:0}
 .notfoud .ewm,.notfoud .ewm img{width:150px;height:150px}
 .notfoud .ewm.bt1{border-top:1px dashed #ccc;padding-top:10px;width:90%;display:block}
