@@ -1,4 +1,4 @@
-﻿@charset "UTF-8";
+@charset "UTF-8";
 html {
     font-family: sans-serif;
     line-height: 1.15;
@@ -313,7 +313,7 @@ a {
     font-size: 16px;
     color: #252525;
     float: right;
-    background-image: url(/static/images/header-class.png);
+    background-image: url(/gh/hgmhcms/hm/static/images/header-class.png);
     background-repeat: no-repeat;
     padding-left: 25px
 }
@@ -355,7 +355,7 @@ a {
     height: 86px;
     bottom: 0;
     left: 0;
-    background-image: url(/static/images/banner-bg.png)
+    background-image: url(/gh/hgmhcms/hm/static/images/banner-bg.png)
 }
 
 .index-banner-bottom .title {
@@ -453,7 +453,7 @@ a {
 .index-title-more {
     float: right;
     padding-right: 18px;
-    background-image: url(/static/images/index-title-more.png);
+    background-image: url(/gh/hgmhcms/hm/static/images/index-title-more.png);
     background-repeat: no-repeat;
     background-position: 38px 15px;
     font-size: 14px;
@@ -549,13 +549,13 @@ a {
 .index-original-list li .info .star span {
     width: 12px;
     height: 11px;
-    background-image: url(/static/images/index-star.png);
+    background-image: url(/gh/hgmhcms/hm/static/images/index-star.png);
     background-repeat: no-repeat;
     display: inline-block
 }
 
 .index-original-list li .info .star span.active {
-    background-image: url(/static/images/index-star-active.png);
+    background-image: url(/gh/hgmhcms/hm/static/images/index-star-active.png);
     background-repeat: no-repeat
 }
 
@@ -675,7 +675,7 @@ a {
 .index-rank-title .more {
     float: right;
     padding-right: 18px;
-    background-image: url(/static/images/index-title-more.png);
+    background-image: url(/gh/hgmhcms/hm/static/images/index-title-more.png);
     background-repeat: no-repeat;
     background-position: 38px 7px;
     font-size: 14px;
@@ -711,7 +711,7 @@ a {
 }
 
 .index-rank-list li .sign span {
-    background-image: url(/static/images/index-rank-0.png);
+    background-image: url(/gh/hgmhcms/hm/static/images/index-rank-0.png);
     background-repeat: no-repeat;
     height: 22px;
     width: 22px;
@@ -726,19 +726,19 @@ a {
 }
 
 .index-rank-list li .sign span.top-1 {
-    background-image: url(/static/images/index-rank-1.png);
+    background-image: url(/gh/hgmhcms/hm/static/images/index-rank-1.png);
     background-repeat: no-repeat;
     color: #fff
 }
 
 .index-rank-list li .sign span.top-2 {
-    background-image: url(/static/images/index-rank-2.png);
+    background-image: url(/gh/hgmhcms/hm/static/images/index-rank-2.png);
     background-repeat: no-repeat;
     color: #fff
 }
 
 .index-rank-list li .sign span.top-3 {
-    background-image: url(/static/images/index-rank-3.png);
+    background-image: url(/gh/hgmhcms/hm/static/images/index-rank-3.png);
     background-repeat: no-repeat;
     color: #fff
 }
@@ -904,13 +904,13 @@ a {
 .index-manga-detail .detail .star span {
     width: 12px;
     height: 11px;
-    background-image: url(/static/images/index-star.png);
+    background-image: url(/gh/hgmhcms/hm/static/images/index-star.png);
     background-repeat: no-repeat;
     display: inline-block
 }
 
 .index-manga-detail .detail .star span.active {
-    background-image: url(/static/images/index-star-active.png);
+    background-image: url(/gh/hgmhcms/hm/static/images/index-star-active.png);
     background-repeat: no-repeat
 }
 
@@ -1142,20 +1142,20 @@ a {
     font-size: 13px;
     color: #d7d7d7;
     padding-left: 20px;
-    background-image: url(/static/images/view-logo-3.png);
+    background-image: url(/gh/hgmhcms/hm/static/images/view-logo-3.png);
     background-repeat: no-repeat;
     background-position: 0 0
 }
 
 .view-comment-main .list li .info .bottom .right .zan.active {
-    background-image: url(/static/images/view-logo-3-a.png)
+    background-image: url(/gh/hgmhcms/hm/static/images/view-logo-3-a.png)
 }
 
 .view-comment-main .list li .info .bottom .right .comment {
     font-size: 13px;
     color: #d7d7d7;
     padding-left: 20px;
-    background-image: url(/static/images/view-logo-4.png);
+    background-image: url(/gh/hgmhcms/hm/static/images/view-logo-4.png);
     background-repeat: no-repeat;
     background-position: 0 1px;
     margin-left: 30px
@@ -1203,7 +1203,7 @@ a {
 }
 
 .view-comment-main .list li .info .comment-item .logo-1 {
-    background-image: url(/static/images/view-logo-2.png);
+    background-image: url(/gh/hgmhcms/hm/static/images/view-logo-2.png);
     background-repeat: no-repeat;
     background-position: 0 0;
     padding-left: 20px;
@@ -1211,7 +1211,7 @@ a {
 }
 
 .view-comment-main .list li .info .comment-item .logo-2 {
-    background-image: url(/static/images/view-logo-1.png);
+    background-image: url(/gh/hgmhcms/hm/static/images/view-logo-1.png);
     background-repeat: no-repeat;
     background-position: 0 0;
     padding-left: 20px;
@@ -1312,7 +1312,7 @@ a {
 }
 
 body.white .view-comment-main .list li .info .bottom .right .zan.active {
-    background-image: url(/static/images/view-logo-3-w-a.png);
+    background-image: url(/gh/hgmhcms/hm/static/images/view-logo-3-w-a.png);
     color: #fd113a
 }
 
@@ -1321,7 +1321,7 @@ body.white .view-comment-main .list li .info .comment-item span {
 }
 
 body.white .view-comment-main .list li .info .comment-item .logo-1 {
-    background-image: url(/static/images/view-logo-2.png);
+    background-image: url(/gh/hgmhcms/hm/static/images/view-logo-2.png);
     background-repeat: no-repeat;
     background-position: 0 0;
     padding-left: 20px;
@@ -1329,7 +1329,7 @@ body.white .view-comment-main .list li .info .comment-item .logo-1 {
 }
 
 body.white .view-comment-main .list li .info .comment-item .logo-2 {
-    background-image: url(/static/images/view-logo-1.png);
+    background-image: url(/gh/hgmhcms/hm/static/images/view-logo-1.png);
     background-repeat: no-repeat;
     background-position: 0 0;
     padding-left: 20px;
@@ -1360,7 +1360,7 @@ body.white .view-comment-main .list li .info .bottom .right .zan {
     font-size: 13px;
     color: #999;
     padding-left: 20px;
-    background-image: url(/static/images/view-logo-3.png);
+    background-image: url(/gh/hgmhcms/hm/static/images/view-logo-3.png);
     background-repeat: no-repeat;
     background-position: 0 0
 }
@@ -1369,7 +1369,7 @@ body.white .view-comment-main .list li .info .bottom .right .comment {
     font-size: 13px;
     color: #999;
     padding-left: 20px;
-    background-image: url(/static/images/view-logo-4.png);
+    background-image: url(/gh/hgmhcms/hm/static/images/view-logo-4.png);
     background-repeat: no-repeat;
     background-position: 0 1px;
     margin-left: 30px
@@ -1536,14 +1536,14 @@ body.white .view-comment-main .bottom-page .block.active,body.white .view-commen
     font-size: 14px;
     color: #999;
     padding-left: 26px;
-    background-image: url(/static/images/detail-order.png);
+    background-image: url(/gh/hgmhcms/hm/static/images/detail-order.png);
     background-repeat: no-repeat;
     float: left;
     line-height: 21px
 }
 
 .view-comment .detail-list-title .order.inverted {
-    background-image: url(/static/images/detail-order-inverted.png)
+    background-image: url(/gh/hgmhcms/hm/static/images/detail-order-inverted.png)
 }
 
 .view-comment .left-bar {
@@ -1634,7 +1634,7 @@ body.white .view-comment-main .bottom-page .block.active,body.white .view-commen
 }
 
 .view-comment .view-win-list .view-lock {
-    background-image: url(/static/images/view-lock.png);
+    background-image: url(/gh/hgmhcms/hm/static/images/view-lock.png);
     background-repeat: no-repeat;
     float: right;
     display: inline-block;
@@ -1647,7 +1647,7 @@ body.white .view-comment-main .bottom-page .block.active,body.white .view-commen
 }
 
 .view-comment .view-win-list .view-time {
-    background-image: url(/static/images/view-time.png);
+    background-image: url(/gh/hgmhcms/hm/static/images/view-time.png);
     background-repeat: no-repeat;
     float: right;
     display: inline-block;
@@ -1660,7 +1660,7 @@ body.white .view-comment-main .bottom-page .block.active,body.white .view-commen
 }
 
 .view-comment .view-win-list .view-free {
-    background-image: url(/static/images/view-free.png);
+    background-image: url(/gh/hgmhcms/hm/static/images/view-free.png);
     background-repeat: no-repeat;
     float: right;
     display: inline-block;
@@ -1673,7 +1673,7 @@ body.white .view-comment-main .bottom-page .block.active,body.white .view-commen
 }
 
 .view-comment .view-win-list .view-free-yellow {
-    background-image: url(/static/images/view-free-yellow.png);
+    background-image: url(/gh/hgmhcms/hm/static/images/view-free-yellow.png);
     background-repeat: no-repeat;
     float: right;
     display: inline-block;
@@ -1686,7 +1686,7 @@ body.white .view-comment-main .bottom-page .block.active,body.white .view-commen
 }
 
 .view-comment .view-win-list .view-discount {
-    background-image: url(/static/images/view-discount.png);
+    background-image: url(/gh/hgmhcms/hm/static/images/view-discount.png);
     background-repeat: no-repeat;
     float: right;
     display: inline-block;
@@ -1699,7 +1699,7 @@ body.white .view-comment-main .bottom-page .block.active,body.white .view-commen
 }
 
 .view-comment .view-win-list .view-discount-red {
-    background-image: url(/static/images/view-discount-red.png);
+    background-image: url(/gh/hgmhcms/hm/static/images/view-discount-red.png);
     background-repeat: no-repeat;
     float: right;
     display: inline-block;
@@ -1717,7 +1717,7 @@ body.white .view-comment-main .bottom-page .block.active,body.white .view-commen
     padding-right: 25px;
     font-size: 13px;
     margin: 20px auto;
-    background-image: url(/static/images/detail-more.png);
+    background-image: url(/gh/hgmhcms/hm/static/images/detail-more.png);
     background-repeat: no-repeat;
     background-position: 85px 17px;
     color: #ff2853;
@@ -1729,7 +1729,7 @@ body.white .view-comment-main .bottom-page .block.active,body.white .view-commen
     font-size: 13px;
     margin: 20px auto;
     color: #ff2853;
-    background-image: url(/static/images/detail-less.png);
+    background-image: url(/gh/hgmhcms/hm/static/images/detail-less.png);
     background-repeat: no-repeat;
     background-position: 85px 17px
 }
@@ -1814,7 +1814,7 @@ body.white .view-comment-main .bottom-page .block.active,body.white .view-commen
 .view-comment .view-comment-sub .sub-bar .title .more {
     float: right;
     padding-right: 18px;
-    background-image: url(/static/images/index-title-more.png);
+    background-image: url(/gh/hgmhcms/hm/static/images/index-title-more.png);
     background-repeat: no-repeat;
     background-position: 38px 15px;
     font-size: 14px;
@@ -2189,7 +2189,7 @@ body.white .view-comment-main .bottom-page .block.active,body.white .view-commen
 }
 
 .view-comment .view-detail-list li .info .title span.new {
-    background-image: url(/static/images/list_new_logo_2.png);
+    background-image: url(/gh/hgmhcms/hm/static/images/list_new_logo_2.png);
     background-repeat: no-repeat;
     display: inline-block;
     height: 17px;
@@ -2222,7 +2222,7 @@ body.white .view-comment-main .bottom-page .block.active,body.white .view-commen
 }
 
 .view-comment .view-detail-list li .detail-lock {
-    background-image: url(/static/images/view-lock.png);
+    background-image: url(/gh/hgmhcms/hm/static/images/view-lock.png);
     background-repeat: no-repeat;
     display: inline-block;
     height: 19px;
@@ -2493,7 +2493,7 @@ body.white .view-comment-main .bottom-page .block.active,body.white .view-commen
 }
 
 .index-rank-bar .right-list li .sign span {
-    background-image: url(/static/images/index-rank-0.png);
+    background-image: url(/gh/hgmhcms/hm/static/images/index-rank-0.png);
     background-repeat: no-repeat;
     height: 22px;
     width: 22px;
@@ -2508,19 +2508,19 @@ body.white .view-comment-main .bottom-page .block.active,body.white .view-commen
 }
 
 .index-rank-bar .right-list li .sign span.top-1 {
-    background-image: url(/static/images/index-rank-1.png);
+    background-image: url(/gh/hgmhcms/hm/static/images/index-rank-1.png);
     background-repeat: no-repeat;
     color: #fff
 }
 
 .index-rank-bar .right-list li .sign span.top-2 {
-    background-image: url(/static/images/index-rank-2.png);
+    background-image: url(/gh/hgmhcms/hm/static/images/index-rank-2.png);
     background-repeat: no-repeat;
     color: #fff
 }
 
 .index-rank-bar .right-list li .sign span.top-3 {
-    background-image: url(/static/images/index-rank-3.png);
+    background-image: url(/gh/hgmhcms/hm/static/images/index-rank-3.png);
     background-repeat: no-repeat;
     color: #fff
 }
@@ -2625,23 +2625,23 @@ body.white .view-comment-main .bottom-page .block.active,body.white .view-commen
 }
 
 .index-right-float li a.index-right-float-top {
-    background-image: url(/static/images/index-top.png);
+    background-image: url(/gh/hgmhcms/hm/static/images/index-top.png);
     background-repeat: no-repeat;
     background-position: center
 }
 
 .index-right-float li a.index-right-float-top:hover {
-    background-image: url(/static/images/index-top-a.png)
+    background-image: url(/gh/hgmhcms/hm/static/images/index-top-a.png)
 }
 
 .index-right-float li a.index-side-code {
-    background-image: url(/static/images/index-side-code.png);
+    background-image: url(/gh/hgmhcms/hm/static/images/index-side-code.png);
     background-repeat: no-repeat;
     background-position: center
 }
 
 .index-right-float li a.index-side-code:hover {
-    background-image: url(/static/images/index-side-code-a.png)
+    background-image: url(/gh/hgmhcms/hm/static/images/index-side-code-a.png)
 }
 
 .index-right-float li a.index-side-code .index-float-code {
@@ -2707,7 +2707,7 @@ body.white .view-comment-main .bottom-page .block.active,body.white .view-commen
 }
 
 @font-face {
-    font-family:icon;src:url(../fonts/icon.eot);src:url(../fonts/icon.eot?#iefix) format("eot"),url(../fonts/icon.woff) format("woff"),url(../fonts/icon.ttf) format("truetype"),url(../fonts/icon.svg#icon) format("svg");font-weight:400;font-style:normal
+    font-family:icon;src:url(/gh/hgmhcms/hm/static/fonts/icon.eot);src:url(/gh/hgmhcms/hm/static/fonts/icon.eot?#iefix) format("eot"),url(/gh/hgmhcms/hm/static/fonts/icon.woff) format("woff"),url(/gh/hgmhcms/hm/static/fonts/icon.ttf) format("truetype"),url(/gh/hgmhcms/hm/static/fonts/icon.svg#icon) format("svg");font-weight:400;font-style:normal
 }
 
 .icon {
@@ -2957,70 +2957,70 @@ body.white .view-comment-main .bottom-page .block.active,body.white .view-commen
 }
 
 .sp-date {
-    background-image: url(/static/images/sprite.png);
+    background-image: url(/gh/hgmhcms/hm/static/images/sprite.png);
     background-position: -278px -88px;
     width: 13px;
     height: 13px
 }
 
 .sp-icon-vip-black {
-    background-image: url(/static/images/sprite.png);
+    background-image: url(/gh/hgmhcms/hm/static/images/sprite.png);
     background-position: -249px -88px;
     width: 24px;
     height: 22px
 }
 
 .sp-icon-vip {
-    background-image: url(/static/images/sprite.png);
+    background-image: url(/gh/hgmhcms/hm/static/images/sprite.png);
     background-position: -249px -49px;
     width: 36px;
     height: 34px
 }
 
 .sp-m_book_new {
-    background-image: url(/static/images/sprite.png);
+    background-image: url(/gh/hgmhcms/hm/static/images/sprite.png);
     background-position: -249px 0;
     width: 44px;
     height: 44px
 }
 
 .sp-new_btn_1 {
-    background-image: url(/static/images/sprite.png);
+    background-image: url(/gh/hgmhcms/hm/static/images/sprite.png);
     background-position: 0 0;
     width: 244px;
     height: 62px
 }
 
 .sp-new_btn_2 {
-    background-image: url(/static/images/sprite.png);
+    background-image: url(/gh/hgmhcms/hm/static/images/sprite.png);
     background-position: 0 -67px;
     width: 244px;
     height: 62px
 }
 
 .sp-searchResult_btn_read {
-    background-image: url(/static/images/sprite.png);
+    background-image: url(/gh/hgmhcms/hm/static/images/sprite.png);
     background-position: 0 -134px;
     width: 120px;
     height: 36px
 }
 
 .sp-tip {
-    background-image: url(/static/images/sprite.png);
+    background-image: url(/gh/hgmhcms/hm/static/images/sprite.png);
     background-position: -249px -115px;
     width: 20px;
     height: 20px
 }
 
 .sp-vip-banner-line-left {
-    background-image: url(/static/images/sprite.png);
+    background-image: url(/gh/hgmhcms/hm/static/images/sprite.png);
     background-position: -125px -134px;
     width: 97px;
     height: 29px
 }
 
 .sp-vip-banner-line-right {
-    background-image: url(/static/images/sprite.png);
+    background-image: url(/gh/hgmhcms/hm/static/images/sprite.png);
     background-position: 0 -175px;
     width: 97px;
     height: 29px
@@ -3473,7 +3473,7 @@ hr {
 .mh-star {
     display: block;
     float: right;
-    background-image: url(/static/images/star.png);
+    background-image: url(/gh/hgmhcms/hm/static/images/star.png);
     width: 68px;
     height: 12px;
     background-position: 0 0;
@@ -3506,7 +3506,7 @@ hr {
 
 .mh-star-line {
     display: inline-block;
-    background-image: url(/static/images/star.png);
+    background-image: url(/gh/hgmhcms/hm/static/images/star.png);
     width: 68px;
     height: 12px;
     background-position: 0 0;
@@ -4278,7 +4278,7 @@ hr {
 
 .down-app-page .banner-top {
     height: 700px;
-    background: #fce04f url(/static/images/down-bg-icon.png) repeat center -5px
+    background: #fce04f url(/gh/hgmhcms/hm/static/images/down-bg-icon.png) repeat center -5px
 }
 
 .down-app-page .banner-top .wrap {
@@ -4374,7 +4374,7 @@ hr {
     margin-left: -117px;
     width: 230px;
     height: 459px;
-    background-image: url(/static/images/down-ios.png);
+    background-image: url(/gh/hgmhcms/hm/static/images/down-ios.png);
     z-index: 1
 }
 
@@ -4970,7 +4970,7 @@ body {
     display: inline-block;
     height: 18px;
     width: 18px;
-    background-image: url(/static/images/header-class.png);
+    background-image: url(/gh/hgmhcms/hm/static/images/header-class.png);
     background-repeat: no-repeat;
     vertical-align: top;
     position: relative;
@@ -5010,7 +5010,7 @@ body {
     padding-left: 44px;
     border-radius: 0 19px 19px 0;
     background-color: #fd113a;
-    background-image: url(/static/images/header-search.png);
+    background-image: url(/gh/hgmhcms/hm/static/images/header-search.png);
     background-repeat: no-repeat;
     background-position: 20px 10px
 }
@@ -5056,7 +5056,7 @@ body {
     display: inline-block;
     height: 18px;
     width: 18px;
-    background-image: url(/static/images/header-vip.png);
+    background-image: url(/gh/hgmhcms/hm/static/images/header-vip.png);
     background-repeat: no-repeat
 }
 
@@ -5339,7 +5339,7 @@ body {
     width: 32px;
     height: 12px;
     margin: 0 auto;
-    background-image: url(/static/images/arrow-up.png);
+    background-image: url(/gh/hgmhcms/hm/static/images/arrow-up.png);
     z-index: 1;
     position: relative;
     top: 1px
@@ -5498,7 +5498,7 @@ body {
     width: 32px;
     height: 12px;
     margin: 0 auto;
-    background-image: url(/static/images/arrow-up.png);
+    background-image: url(/gh/hgmhcms/hm/static/images/arrow-up.png);
     z-index: 1;
     position: relative;
     top: 1px;
@@ -5880,7 +5880,7 @@ body {
     display: block;
     height: 110px;
     width: 100%;
-    background-image: url(/static/images/dateProgressBar-line.png);
+    background-image: url(/gh/hgmhcms/hm/static/images/dateProgressBar-line.png);
     position: absolute;
     bottom: 6px;
     left: 0;
@@ -6035,7 +6035,7 @@ body {
 
 .user-sidebar {
     width: 241px;
-    background: #fff url(/static/images/user-sidebar-top.png) no-repeat top center;
+    background: #fff url(/gh/hgmhcms/hm/static/images/user-sidebar-top.png) no-repeat top center;
     box-shadow: 2px 2px 6px silver
 }
 
@@ -6226,14 +6226,14 @@ body {
     height: 21px;
     width: 21px;
     display: inline-block;
-    background-image: url(/static/images/detail-star.png);
+    background-image: url(/gh/hgmhcms/hm/static/images/detail-star.png);
     background-repeat: no-repeat;
     vertical-align: top;
     margin: 0 2px
 }
 
 .banner_detail_form .info .title .right .active {
-    background-image: url(/static/images/detail-star-active.png)
+    background-image: url(/gh/hgmhcms/hm/static/images/detail-star-active.png)
 }
 
 .banner_detail_form .info .subtitle {
@@ -6339,7 +6339,7 @@ body {
     text-align: center;
     display: inline-block;
     padding-left: 20px;
-    background-image: url(/static/images/detail-phone.png);
+    background-image: url(/gh/hgmhcms/hm/static/images/detail-phone.png);
     background-repeat: no-repeat;
     background-position: 9px 7px;
     position: relative
@@ -6381,7 +6381,7 @@ body {
     font-size: 16px;
     color: #666;
     padding-left: 20px;
-    background-image: url(/static/images/detail-share.png);
+    background-image: url(/gh/hgmhcms/hm/static/images/detail-share.png);
     background-repeat: no-repeat;
     background-position: 0 2px;margin-left:10px;
 }
@@ -6391,7 +6391,7 @@ body {
     font-size: 16px;
     color: #666;
     padding-left: 23px;
-    background-image: url(/static/images/rss_logo.png);
+    background-image: url(/gh/hgmhcms/hm/static/images/rss_logo.png);
     background-repeat: no-repeat;
     background-position: 0 2px;
     margin-right: 20px
@@ -6434,7 +6434,7 @@ body {
     height: 86px;
     bottom: 0;
     left: 0;
-    background-image: url(/static/images/banner-bg.png)
+    background-image: url(/gh/hgmhcms/hm/static/images/banner-bg.png)
 }
 
 .banner_puzzle .puzzle li .bottom .title {
@@ -6542,7 +6542,7 @@ body {
     height: 86px;
     bottom: 0;
     left: 0;
-    background-image: url(/static/images/banner-bg.png)
+    background-image: url(/gh/hgmhcms/hm/static/images/banner-bg.png)
 }
 
 .banner_puzzle_bak .swiper-slide .puzzle li .bottom .title {
@@ -6595,7 +6595,7 @@ body {
     height: 195.2px;
     padding-top: 34px;
     text-align: center;
-    background: url(/static/images/banner_toplist_bg.png);
+    background: url(/gh/hgmhcms/hm/static/images/banner_toplist_bg.png);
     background-position: center center;
     background-size: 100% 100%
 }
@@ -6603,7 +6603,7 @@ body {
 .banner_waterwheel {
     position: relative;
     height: 410px;
-    background-image: url(/static/images/banner_waterwheel_bg.png);
+    background-image: url(/gh/hgmhcms/hm/static/images/banner_waterwheel_bg.png);
     background-size: cover
 }
 
@@ -6743,7 +6743,7 @@ body {
 }
 
 .account-box .qr-wrap {
-    background-image: url(/static/images/account-bg.png);
+    background-image: url(/gh/hgmhcms/hm/static/images/account-bg.png);
     background-size: 100% 100%;
     width: 198px;
     height: 385px;
@@ -8535,7 +8535,7 @@ body {
 
 .vip-banner-big .aside-box .vip-desc {
     padding-top: 14px;
-    background-image: url(/static/images/vip-aside-line.png);
+    background-image: url(/gh/hgmhcms/hm/static/images/vip-aside-line.png);
     background-position: top center;
     background-repeat: no-repeat
 }
@@ -8791,7 +8791,7 @@ body {
     position: absolute;
     top: -80px;
     right: 2px;
-    background-image: url(/static/images/icon-chart-arrow.png);
+    background-image: url(/gh/hgmhcms/hm/static/images/icon-chart-arrow.png);
     width: 11px;
     height: 12px
 }
@@ -9139,7 +9139,7 @@ body {
     width: 100%;
     height: 30px;
     margin-top: -30px;
-    background-image: url(/static/images/vip-rand-bg.png);
+    background-image: url(/gh/hgmhcms/hm/static/images/vip-rand-bg.png);
     background-size: 100% 100%
 }
 
