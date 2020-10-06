@@ -34,7 +34,7 @@
 .imgBox:after{display:block;clear:both;content:".";visibility:hidden;height:0;}
 .imgBox .bg{ background:#fff; padding:22px 0;}
 .imgBox .col_3_1 li{ width:30%; float:left; margin:0px -1% 0% 3%;  }
-.imgBox li .ImgA{ display:block; position:relative;min-height:100px;background:url("../images/cartton_place_holder.png") no-repeat center; background-color: #ededed}
+.imgBox li .ImgA{ display:block; position:relative;min-height:100px;background:url("https://cdn.jsdelivr.net/gh/hgmhcms/hm/img/loadb.png") no-repeat center; background-color: #ededed}
 .imgBox li .ImgA img{ display:block}
 .imgBox li .ImgA em{ width:27px; display:block; height:17px; position:absolute; bottom:0; left:0; background:url(../images/bg_end.png); background-size: 100%;}
 .imgBox li .ImgA img{ zoom:1; border-radius:2px;}
