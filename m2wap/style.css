@@ -94,7 +94,7 @@
 .Introduct .Drama{ background:#fff; margin-bottom:12px;}
 .Introduct .Drama li{ border:1px solid #dcdcde; float:left; width:22%; height:33px; text-align:center; line-height:33px; font-size:12px; border-radius:2px; margin:0 0% 10px 2%; position:relative;}
 .Introduct .Drama li a{ color:#000; display:block; width: 100%; height: 33px; width: 62%; margin: 0 auto; overflow: hidden;}
-.Introduct .Drama li .new{ width:23px; height:12px; position:absolute; top:-2px; right:-2px; border-radius:2px; background:#ff2727; color:#fff; text-align:center; line-height:24px; font-family:Arial, Helvetica, sans-serif; font-size:14px;}
+.Introduct .Drama li .new{ width:23px; height:12px; position:absolute; top:-2px; right:-2px; border-radius:2px; background:#ff2727; color:#fff; text-align:center; line-height:24px; font-family:Arial, Helvetica, sans-serif; font-size:8px;}
 .Introduct .Drama li.add{ border:1px dashed #dcdcde; line-height: 15px; font-size: 30px}
 .Introduct .Seq{ display:block; background-image:url(../images/btn_Seq.png); background-size: 45px auto; width:45px; height:22px; float:right; margin:0px 10px 0 0}
 .Introduct .Seq.asc{ background-position: left top; background-size: 45px auto}
