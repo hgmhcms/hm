@@ -1,0 +1,53 @@
+/*侧边二维码*/
+.float_code{
+    position: fixed;
+    bottom: 251;
+    left: 0px;
+    width: 126px;
+    height: 153px;
+    margin-left: 0;
+}
+.close_code{
+    display: inline-block;
+    *zoom:1;*display:inline;
+    position: absolute;
+    width: 25px;
+    height: 22px;
+    top:0;
+    right:0;
+    background:url(about:blank);
+}
+.code_wrap{
+    display: inline-block;
+    *zoom:1;*display:inline;
+    position: absolute;
+    width: 109px;
+    height: 103px;
+    top:39px;
+    right:8px;
+    background:url(about:blank);
+}
+.ad_bottom_code {
+    position: fixed;
+    bottom: 0;
+    right: 0px;
+}
+
+.ad_bottom_code > div{
+position:relative;
+display:block;
+
+}
+.ad_code_close{
+    position: absolute;
+    right: 0px;
+    top: -23px;
+    z-index: 99999;
+    font-size: 12px;
+    padding: 0px 2px;
+    /* background: #fcfcfc; */
+    border: 1px solid #f1f1f1;
+    line-height: 22px;
+    border-radius: 2px;
+    cursor:pointer;	
+}

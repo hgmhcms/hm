@@ -1,0 +1,499 @@
+.land_bg{
+    background:#fff url(../images/land_bg.jpg) no-repeat top center;
+}
+.password_bg{
+    background:#fff url(../images/password_bg.jpg) no-repeat top center;
+}
+.user_bg{
+    background: url(../images/user_bg.jpg) no-repeat top center;
+}
+.land_warp{
+    width: 1200px;
+    min-height:725px;
+    margin: 0 auto;
+    position: relative;
+}
+.land_warp_con{
+    position: absolute;
+    top:134px;
+    right:50px;
+    width: 380px;
+    background: #fff;
+    border: 1px solid #d6d6d6;
+}
+.land_warp_con ul{
+    width: 380px;
+    height:53px;
+    font-size: 0;
+}
+.land_warp_con ul li{
+    display: inline-block;
+    *zoom:1;*display:inline;
+    width: 190px;
+    height:53px;
+    font-size: 18px;
+}
+.land_warp_con ul li a.tab-opt,.land_warp_con ul li a.tab-option-li{
+    display: inline-block;
+    *zoom:1;*display:inline;
+    text-align: center;
+    line-height: 53px;
+    background: #dfe6ed;
+    border: 1px solid #d6d6d6;
+    height:51px;
+    width: 188px;
+    color:#666;
+}
+.land_warp_con ul li a.tab-option-selected{
+    width: 190px;
+    height:53px;
+    color: #333;
+    background: none;
+    border: none;
+}
+.land_warp_con .tab-content{
+    width: 378px;
+    height:335px;
+    padding-bottom: 40px;
+    display: none;
+}
+.land_warp_con .tab-content-selected{
+    display: block;
+}
+.land_warp_con .tab-content .land_form{
+    width: 300px;
+    height:287px;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+.land_form .land_form_li{
+    width: 300px;
+    margin-top: 10px;
+}
+.land_form_li .land_input{
+    width: 278px;
+    height:28px;
+    border: 1px solid #ccc;
+    color: #999;
+    font-size: 14px;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+}
+.land_form_li .reme_p{
+    color: #666;
+    margin-left: 5px;
+}
+.land_form_li .forget_word{
+    float: right;
+    color: #666;
+}
+.land_form_li .land_btn{
+    display: block;
+    width: 300px;
+    height:40px;
+    background: #3591d5;
+    line-height: 40px;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+    cursor: pointer;
+}
+.land_form_li .other_btn{
+    color: #666;
+    background: none;
+    height:20px;
+    line-height: 20px;
+}
+.land_form_li .gainVC{
+    width: 98px;
+    height: 40px;
+    color: #FFF;
+    font-size: 14px;
+    border: none;
+    background: #3591d5;
+    text-align: center;
+    line-height: 40px;
+    float: right;
+    cursor: pointer;
+    outline: none;
+}
+.land_form_li #verificationCode{
+    width: 170px;
+    height: 28px;
+    border: 1px solid #ccc;
+    color: #999;
+    font-size: 14px;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+}
+a.sina_btn,a.qq_btn,a.vx_btn{
+    display: inline-block;
+    *zoom:1;*display:inline;
+    width: 24px;
+    height:22px;
+}
+a.sina_btn{
+    background: url(../images/account_con_WB1.png) no-repeat;
+    margin-left: 82px;
+}
+a.qq_btn{
+    background: url(../images/account_con_QQ1.png) no-repeat;
+    margin-left: 30px;
+}
+a.vx_btn{
+    background: url(../images/account_con_VX1.png) no-repeat;
+    margin-left: 30px;
+}
+.land_form_li a.user_agreement{
+    color: #3591d5;
+}
+.land_form_li .verify_input{
+    width: 98px;
+    height:28px;
+}
+.land_form_li .verify_img{
+    display: inline-block;
+    *zoom:1;*display:inline;
+    width: 100px;
+    height:40px;
+    vertical-align: middle;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.tip_right,.tip_wrong,.tip_p,.tip_p1,.tip_p2,.tip_p3,.tip_p4{
+    color:#666;
+    min-height:24px;
+    line-height: 24px;
+    display: none;
+}
+.tip_right span,.tip_wrong span,.tip_p1 span,.tip_p2 span,.tip_p3 span,.tip_p4 span{
+    display: inline-block;
+    *zoom:1;*display:inline;
+    width: 20px;
+    height:20px;
+    vertical-align: middle;
+    background: url(../images/land_tip.png) no-repeat 0 -3px;
+}
+.tip_wrong,.tip_p2,.tip_p1,.tip_p3,.tip_p4{
+    color:#fe5419;
+}
+.tip_wrong span,.tip_p1 span,.tip_p2 span,.tip_p3 span,.tip_p4 span{
+    background: url(../images/land_tip.png) no-repeat 0 -23px;
+}
+.land_form .p_con{
+    width: 308px;
+    height:75px;
+    margin-top: 55px;
+    text-align: center;
+}
+.land_form .p_con .p_con_one{
+    color: #333;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.land_form .p_con .p_con_two{
+    color: #666;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+/*找回密码*/
+.password_warp{
+    width: 1200px;
+    height:720px;
+    margin: 0 auto;
+    position: relative;
+}
+.password_con{
+    position: absolute;
+    top:90px;
+    left:0;
+    width: 1200px;
+    height:580px;
+    background: #fff;
+}
+.password_con .pass_con{
+    width: 1105px;
+    height:497px;
+    margin: 40px  0 0 50px;
+}
+.pass_con .pass_con_h{
+    width: 1105px;
+    height:39px;
+    border-bottom: 1px solid #d6d6d6;
+}
+.pass_con .password_one_box{
+    width: 100%;
+    height: 100%;
+    font-size: 16px;
+    position: relative;
+}
+.pass_con .password_one_box .password_det_con_box{
+    width: 198px;
+    height: 44px;
+    border: 1px solid #3086c6;
+    line-height: 46px;
+    text-align: center;
+    float: left;
+    margin-top: 142px;
+    cursor: pointer;
+    background-color: #3591d5;
+    color: #ffffff;
+}
+.pass_con .password_one_box .password_det_con_box:nth-child(1){
+    margin-left: 334px;
+    margin-right: 30px;
+}
+.pass_con_h .con_h_left{
+    height:25px;
+    font-size: 18px;
+    color: #333;
+    float: left;
+}
+.con_h_left a.bechange{
+    color:#1790e6;
+    font-size: 14px;
+    margin-left: 15px;
+}
+.pass_stepLi{
+    height:25px;
+    float: right;
+    text-align: right;
+}
+.pass_stepLi li.con_navLi_option{
+    display: inline-block;
+    *zoom:1;*display:inline;
+    height:25px;
+    font-size: 14px;
+    color:#666;
+}
+.pass_stepLi li.con_navLi_optioned{
+    color: #3591d5;
+}
+.con_navLi_span .step{
+    font-size: 24px;
+    vertical-align: middle;
+    line-height: 24px;
+}
+
+.con_navLi_option span.stepTip {
+    display: inline-block;
+    *zoom:1;*display:inline;
+    background: url("../images/ucenter_ico.png") no-repeat -54px -30px ;
+    height: 26px;
+    width: 22px;
+    vertical-align: middle;
+    margin:0 10px;
+}
+.con_navLi_option span.stepTiped{
+    background: url("../images/ucenter_ico.png") no-repeat -156px -188px ;
+}
+.pass_con .password_det_con{
+    width: 408px;
+    height:160px;
+    margin: 100px auto;
+    padding-left:38px;
+}
+
+.land_form_li  .land_input1{
+    width: 298px;
+}
+.land_form_li  .land_input2{
+    width: 320px;
+}
+.land_form_li .send_mail{
+    display: inline-block;
+    *zoom:1;*display:inline;
+    width: 40px;
+    height:32px;
+    background: url("../images/send_mail.jpg") no-repeat  ;
+}
+.land_form_li .send_con{
+    display: inline-block;
+    *zoom:1;*display:inline;
+    width: 300px;
+    margin-bottom: 10px;
+}
+.send_con .send_con_1{
+    font-size: 14px;
+    color: #333;
+}
+.send_con .send_con_2{
+    color: #666;
+}
+.send_con_2 .re_send,.send_con_2 .no_send{
+    color:#1790e6;
+}
+.send_con_2 .no_send{
+    display: none;
+}
+.password_det_con .success_tip{
+    font-size: 24px;
+    color: #333;
+}
+.land_form_li .land_input3{
+    display: inline-block;
+    *zoom:1;*display:inline;
+    width: 128px;
+    height:45px;
+    line-height: 47px;
+    border:1px solid #94c9f6;
+    color: #3591d5;
+    background: none;
+    margin-right: 20px;
+    margin-left: 58px;
+    margin: 50px 20px ;
+}
+.land_form_li .land_input4{
+    display: inline-block;
+    *zoom:1;*display:inline;
+    width: 130px;
+    height:47px;
+    line-height: 47px;
+    margin-top: 50px;
+}
+/*用户名重复*/
+.password_con .user_con{
+    height: 507px;
+    margin: 30px 0 0 50px;
+}
+.user_con .user_con_h{
+    height:49px;
+}
+.user_h_right{
+    float: right;
+    height:36px;
+    margin-bottom: 10px;
+}
+.user_h_right .landing,.user_h_right .other_land{
+    display: inline-block;
+    height:36px;
+    line-height: 36px;
+    font-size: 14px;
+    color: #666;
+    vertical-align: middle;
+}
+.user_h_right .landing{
+    margin-right: 40px;
+}
+.user_h_right .other_land{
+    margin-right: 15px;
+}
+.user_h_right .landing .land{
+    color: #3591d5;
+}
+.pass_con .user_det_con{
+    margin: 60px auto;
+}
+.password_det_con .title{
+    font-size: 18px;
+    color: #333;
+}
+.user_h_right a.sina_btn,.user_h_right a.qq_btn{
+    vertical-align: middle;
+}
+.user_h_right a.qq_btn{
+    margin-left: 10px;
+}
+a.mo_submit, a.mo_cans {
+    display: inline-block;
+    width: 113px;
+    height: 40px;
+    background: #3591d5;
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+    font-size: 14px;
+    margin: 5px 18px 0 0;
+}
+a.mo_cans {
+    background: #fff;
+    color: #333;
+    border: 1px solid #ccc;
+}
+.land_form_li .lab_input{
+    display: block;
+    height:28px;
+    line-height: 28px;
+    margin-top: 15px;
+    font-size: 14px;
+    color: #666;
+
+}
+
+
+#box_zc{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background: rgba(0, 0, 0, .3);
+    display: none;
+    z-index: 998;
+}
+.Choose_way{
+    width: 538px;
+    height: 254px;
+    border: 1px solid #d6d6d6;
+    background-color: #ffffff;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    margin: -128px 0 0 -270px;
+    z-index: 999;
+    display: none;
+}
+.pwdno_bound_tit{
+    width: 100%;
+    height: 52px;
+    line-height: 52px;
+    padding-left: 30px;
+    padding-right: 14px;
+    font-size: 18px;
+    color: #333;
+    box-sizing: border-box;
+}
+.account_tit_font{
+    display: inline-block;
+}
+.account_close{
+    display: inline-block;
+    float: right;
+    margin-top: 14px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    background: url('http://static.dmzj.com/ucenter/images/ucenter_ico.png') no-repeat -64px -328px;
+}
+.account_btm_cont{
+    border-top: 1px solid #d6d6d6;
+    width: 480px;
+    margin-left: 30px;
+}
+.hint_noPhoneTied{
+    height: 70px;
+    text-align: center;
+    color: #333;
+    font-size: 16px;
+    padding: 0 72px;
+    box-sizing: border-box;
+    line-height: 28px;
+    margin-top: 15px;
+    margin-bottom: 22px;
+}
+.hint_setBtnStyle{
+    width: 118px;
+    height: 38px;
+    display: block;
+    border: 1px solid #3086c6;
+    background-color: #3591d5;
+    color: #FFF;
+    font-size: 14px;
+    cursor: pointer;
+    outline: none;
+    margin-left: 180px;
+}
+.box_show{
+    z-index: 999;
+}

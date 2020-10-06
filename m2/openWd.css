@@ -1,0 +1,136 @@
+.open_cj_one,.open_cj_two,.open_cj_third,.open_cj_four{
+    width: 688px;
+    height: 530px;
+    position: fixed;
+    _position: absolute;
+    z-index: 20;
+    top: 50%;
+    left: 50%;
+    margin-left: -344px;
+    margin-top: -265px;
+}
+.show{
+    background: #000;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    _position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.6;
+    filter: alpha(opacity = 60);
+    z-index: 10;
+    top: 0;
+    display: none;
+}
+.open_cj_one{
+    background: url("../images/openW-1.png") no-repeat;
+}
+.open_cj_one .begin,.open_cj_two .begin,.open_cj_four .begin{
+    position: absolute;
+    bottom:146px;
+    left:117px;
+    width: 455px;
+    height:84px;
+}
+.open_cj_two .begin{
+    top:198px;
+}
+.open_cj_one .open_cj_a,.open_cj_one .open_cj_b,.open_cj_one .open_cj_c{
+    display: inline-block;
+    *zoom:1;*display:inline;
+    width:121px;
+    height:79px;
+    margin-right: 25px;
+}
+.open_cj_xq,.continue_read{
+    position: absolute;
+    bottom:72px;
+    left:294px;
+    width: 77px;
+    height:27px;
+}
+.continue_read{
+    width: 145px;
+    height:50px;
+    bottom: 65px;
+    left:258px;
+}
+.close{
+    position: absolute;
+    top:94px;
+    right:76px;
+    width: 38px;
+    height:38px;
+}
+.open_cj_two{
+    background: url("../images/openW-2.png") no-repeat;
+}
+.key_con{
+    position:absolute;
+    top:24px;
+    left:52px;
+    font-size: 18px;
+    color: #ffcf00;
+}
+.key_con .key_sec{
+    color:#fff;
+}
+.how_use{
+    display: block;
+    width: 129px;
+    height:30px;
+    position: absolute;
+    bottom:197px;
+    left:268px;
+}
+.open_cj_third{
+    background: url("../images/openW-3.png") no-repeat;
+}
+.open_cj_four{
+    background: url("../images/openW-4.png") no-repeat;
+}
+.open_cj_four .begin .form_in{
+    color:#ffcf00;
+    font-size: 18px;
+}
+.form_in .forin{
+    width: 82px;
+    height:37px;
+    color: #666;
+    background: #fde994;
+    border: none;
+    margin-left: 18px;
+    padding-left:5px;
+}
+.form_in span{
+    display: inline-block;
+    *zoom:1;*display:inline;
+    vertical-align: middle;
+    width: 80px;
+    height:35px;
+    margin:0 10px;
+    background: #fff;
+    font-size: 16px;
+    text-align: center;
+    line-height: 35px;
+    color:#d3251e;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    user-select: none;
+}
+.form_in .btn{
+    width: 84px;
+    height:32px;
+    border: 2px solid #961d19;
+    background: #fde994;
+    font-size: 14px;
+    line-height: 28px;
+    text-align: center;
+    color: #d3251e;
+    cursor: pointer;
+}
+.open_cj_four .begin{
+    top:215px;
+    left:114px;
+}
