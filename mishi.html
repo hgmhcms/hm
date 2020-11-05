@@ -1,0 +1,46 @@
+<link rel="stylesheet"   href="https://cdn.jsdelivr.net/gh/hgmhcms/hm/popup.css">
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/clipboard@1.6.1/dist/clipboard.min.js"></script>
+
+<div class="t-popup post-box is-visible" id="PostBox">
+	<div class="post-popup">
+		<div class="box">
+			<h3>特别公告</h3>
+			<p align="center">最新韩漫资源，每日更新</p>
+			<p>迷失404发布页地址：(<span class="t-url-color">www.ms404.cc</span>)</p>
+			<p>我们对这些漫友除了表示可惜，无法为您做任何事</p>
+			<p class="line"></p>
+			<p class="f14">同时我们强烈建议您<b class="red">收藏发布页</b>到浏览器或微信</p>
+			<p class="f14">以防找不到网址，建议收藏发布页</p>
+			<div class="input">
+				<input id="btnCopy" onclick="pushms()" style="text-align:center;" type="text"
+						 value="免费韩漫发布页：https://www.ms404.cc" readonly="true">
+			</div>
+			<span class="alink" id="btnCopy" data-clipboard-text="https://www.ms404.cc">
+				<a onclick="copyToClipBoard()">点我收藏发布页</a>
+			</span>
+		</div>
+		<div class="clearfix"></div>
+		<a onclick="popclose()" class="close" id="popupPostClose">&nbsp;</a>
+	</div>
+</div>
+<script type="text/javascript">
+	function copyToClipBoard() {
+	    var clipboard = new Clipboard('.alink');
+	    console.log(clipboard);
+	    clipboard.on('success', function (e) {
+	        alert('收藏成功,以复制发布链接赶快去分享吧!');
+	    });
+	 
+	    clipboard.on('error', function (e) {
+	        alert('收藏失败');
+	    });
+	}
+	function popclose() {
+		document.getElementById("PostBox").style.display="none";
+	}
+	
+	function pushms() {
+		location.href=("https://www.ms404.cc");
+	}
+</script>
+       
